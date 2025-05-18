@@ -1,0 +1,506 @@
+  body 
+  {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+    background-size: auto; 
+    background-position: top;  
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    color: blue; 
+    text-align: center; 
+   }
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: row;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text {
+    max-width: 800px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 0px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #343a40;
+    color: white;
+}
+/* Style for About Me Section */
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Profile Image Styling */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 180px; /* Adjust image size */
+    height: 180;
+    border-radius: 50%; /* Makes the image circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Bar */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Back Button */
+.back-button {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin-top: 100px;
+}
+
+/* Style for Education Section */
+.education-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Profile Image Styling */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 200px; /* Adjust image size */
+    height: 200px;
+    border-radius: 50%; /* Makes the image circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Bar */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Back Button */
+.back-button {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin-top: 100px;
+}
+
+
+
+
+
+/* Style for Projects Section */
+.project-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Profile Image Styling */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 200px; /* Adjust image size */
+    height: 200px;
+    border-radius: 50%; /* Makes the image circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Bar */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Back Button */
+.back-button {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin-top: 100px;
+}
+
+
+/* Style for Skills Section */
+.skills-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Profile Image Styling */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 200px; /* Adjust image size */
+    height: 200px;
+    border-radius: 50%; /* Makes the image circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Bar */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Back Button */
+.back-button {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin-top: 100px;
+}
+
+/* Contact Section Styling */
+#contact {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Submit Button Styling */
+.submit-button {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Error Message Styling */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none; /* Hidden by default */
+}
+
+/* Success Message Styling */
+.success-message {
+    color: green;
+    font-size: 18px;
+    margin-top: 20px;
+    display: none; /* Hidden by default */
+}
+
+/* Social Media Links */
+ul.social-media-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.social-media-links li {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+ul.social-media-links li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+ul.social-media-links li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

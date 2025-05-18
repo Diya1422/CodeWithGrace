@@ -1,0 +1,60 @@
+/* Education Section Styling */
+.education-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Education Text Styling */
+.education-text {
+    text-align: left;
+    color: white;
+}
+
+.education-text h1 {
+    color: #ffcc00; /* Highlight the title */
+}
+
+.education-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Education Image Styling */
+.education-image {
+    width: 100%; /* Make the image responsive */
+    max-width: 600px; /* Limit the image size */
+    height: auto; /* Keep aspect ratio intact */
+    margin-top: 20px; /* Adds space above the image */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 768px) {
+    .education-container {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .education-text {
+        text-align: center;
+    }
+
+    .education-image {
+        margin-top: 20px;
+        width: 100%; /* Image takes full width on small screens */
+    }
+}
