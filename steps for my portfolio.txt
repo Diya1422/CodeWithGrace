@@ -1,0 +1,20 @@
+steps for my portfolio:
+1. front page
+<!DOCTYPE html>) used to build the structure of a webpage.
+lang="en" declares that the language of the page is English.
+<meta charset="UTF-8">
+Sets character encoding to UTF-8 so it can display most characters correctly.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+Makes your page responsive. It ensures the layout adjusts to different screen sizes (mobile-friendly).
+<title>WELCOME TO DIYA'S WORLD</title>
+The title appears in the browser tab.
+<link rel="stylesheet" href="style.css">
+Connects your external CSS file (style.css) for styling (colors, layout, fonts, etc.).
+
+2. dive in page
+3. about page
+
+4.education page
+5.project page
+6.skills page
+7.contact page

@@ -490,6 +490,28 @@ ul.social-media-links li a:hover {
     text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .container, .section, .card, .nav {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
 
 
 

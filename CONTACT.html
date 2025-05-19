@@ -19,42 +19,45 @@
             </ul>
         </nav>
     </header>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <a href="index.html" class="back-button">Back to Home</a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="EDUCATION.html">Education</a></li>
+                <li><a href="PROJECTS.html">Projects</a></li>
+                <li><a href="SKILLS.html">Skills</a></li>
+                <li><a href="CONTACT.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <section id="contact">
     <div class="contact-container">
         <h1>Contact Me</h1>
-        <p>If you wish to get in touch, please fill out the form below:</p>
-        
-        <!-- Contact Form -->
-        <form id="contact-form" onsubmit="handleFormSubmit(event)">
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required placeholder="Your Name">
-                <span id="name-error" class="error-message"></span> <!-- Error Message -->
-            </div>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required placeholder="Your Email">
-                <span id="email-error" class="error-message"></span> <!-- Error Message -->
-            </div>
-            <div>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required placeholder="Your Message"></textarea>
-                <span id="message-error" class="error-message"></span> <!-- Error Message -->
-            </div>
-            
-            <!-- Submit Button -->
-            <button type="submit" class="submit-button">Submit</button>
-        </form>
-        
-        <!-- Success Message -->
-        <div id="success-message" class="success-message"></div>
-        
+        <p>If you wish to get in touch, please click the button below:</p>
+
+        <!-- Google Form Button -->
+        <div class="google-form-link">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdMj08-Rc7u6Hd6Gw-E96TwqqhM4C5zouyRvUIphfj5Nd-8Fw/viewform?usp=header" target="_blank">
+                <button type="button" class="submit-button">Open Google Contact Form</button>
+            </a>
+        </div>
+
         <!-- Social Media Links -->
         <p>Or you can contact me via my social media profiles:</p>
         <ul class="social-media-links">
-            <li><a href="https://www.linkedin.com/in/diya-sharma-0087ab241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.linkedin.com/in/diya-sharma-0087ab241" target="_blank">LinkedIn</a></li>
             <li><a href="https://github.com/Diya1422" target="_blank">GitHub</a></li>
-            <li><a href="https://x.com/home" target="_blank">Twitter</a></li>
+            <li><a href="https://x.com/DiyaKatihar" target="_blank">Twitter</a></li>
         </ul>
     </div>
 </section>
